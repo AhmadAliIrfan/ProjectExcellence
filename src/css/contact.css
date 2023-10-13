@@ -1,0 +1,53 @@
+.contactContainer {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.para {
+  text-align: left;
+  margin: 20px auto 50px;
+  line-height: 2;
+  padding: 3% 7%;
+}
+
+.conHeading {
+  background-color: #fff;
+  padding: 50px;
+  color: #000;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.email {
+  text-align: center;
+}
+
+.email:hover,
+.number:hover {
+  color: #8ecae6;
+}
+
+.tel {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  gap: 50px;
+}
+
+.formContent {
+  margin: 80px 0px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .contactContainer {
+    padding-bottom: 100px;
+  }
+
+  .conHeading {
+    font-size: 5vw;
+  }
+
+  .para,
+  .tel {
+    font-size: 0.8rem;
+    margin: 0px 0px 20px;
+  }
+}

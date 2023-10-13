@@ -1,0 +1,64 @@
+.teamContainer {
+  padding: 5% 7%;
+}
+
+.aboutHeading {
+  margin: 30px 0px;
+  text-align: center;
+}
+
+.aboutPara {
+  padding: 30px 50px;
+}
+
+.teamCardImage {
+  margin: 20px auto;
+  background-color: #000c62;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #222;
+  padding: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 0.24fr 1fr;
+  gap: 20px;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.nameTitle {
+  font-weight: 800;
+}
+
+.teamImgContainer {
+  background-color: blue;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.teamImg {
+  border-radius: 50px;
+  margin: 0px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .teamCardImage {
+    width: 100%;
+  }
+
+  .details {
+    font-size: 3vw;
+  }
+}

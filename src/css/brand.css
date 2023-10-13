@@ -1,0 +1,67 @@
+/* 
+font-family: 'EB Garamond', serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Hind', sans-serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+font-family: 'Lustria', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Source Sans 3', sans-serif;
+font-family: 'Spectral', serif;
+
+*/
+
+.brand {
+  margin: 3px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  width: 50%;
+}
+
+.logo-text {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+@media screen and (min-width: 769px) {
+  .logo-text {
+    font-size: 1.5rem;
+  }
+  .brandImage {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo-text {
+    font-size: 3.5vw;
+  }
+  .brandImage {
+    width: 16vw;
+    height: 16vw;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .logo-text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo-text {
+    font-size: 12px;
+  }
+}

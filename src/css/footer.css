@@ -1,0 +1,45 @@
+#footer {
+  min-height: 300px;
+  background-color: rgba(18, 14, 69);
+  /*rgba(10, 8, 31)*/
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.sections {
+  width: 22%;
+  margin: 20px auto;
+  color: #fff;
+}
+
+.sections h1,
+.sections h2,
+.sections h3 {
+  margin-bottom: 30px;
+}
+
+.aboutText,
+.navLinks {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#section1,
+#section2,
+#section3 {
+  border-right: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+}
+
+@media screen and (max-width: 690px) {
+  .ftitle {
+    font-size: 3vw;
+  }
+
+  .aboutText,
+  .navLinks {
+    font-size: 2vw;
+  }
+}

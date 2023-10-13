@@ -1,0 +1,51 @@
+.container {
+  background: rgb(25, 20, 124);
+  background: linear-gradient(
+    90deg,
+    rgb(10, 52, 107) 10%,
+    rgba(36, 110, 153, 1) 50%,
+    rgba(0, 40, 150, 1) 100%
+  );
+}
+
+.jumbotrn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  color: #fff;
+
+  position: relative;
+  z-index: 0;
+  padding: 3% 7% 5%;
+}
+
+.data {
+  font-size: 1.3vw;
+  line-height: 1.5;
+  padding: 0px 60px 110px 0px;
+  margin: 0px 0px 30px;
+}
+
+.jumbotrn .data h1 {
+  margin-bottom: 20px;
+  font-family: "Montserrat";
+  font-size: 3.5vw;
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotrn {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    height: 80%;
+  }
+
+  .jumbotrn .data h1 {
+    font-size: 30px;
+  }
+
+  .jumbotrn .data {
+    font-size: 15px;
+    line-height: 1.2;
+    padding: 0px;
+  }
+}

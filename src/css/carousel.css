@@ -1,0 +1,52 @@
+.carousel-container {
+  margin-bottom: 50px auto;
+  width: 80%;
+}
+
+.body-text {
+  font-size: 1.1vw;
+  height: 10vw;
+  margin: 20px 0px;
+}
+
+.title {
+  font-size: 2.1vw;
+  margin: 20px 0px;
+}
+
+.scale {
+  width: 100%;
+}
+
+.icon {
+  width: 10%;
+  height: 15px;
+}
+
+@media screen and (max-width: 700px) {
+  .carousel-container {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  .card-container {
+    text-align: center;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .body-text {
+    font-size: 0.9rem;
+    height: 150px;
+  }
+
+  .scale {
+    width: 100%;
+  }
+  .card-container,
+  .body-text,
+  .title {
+    padding: 0px;
+  }
+}

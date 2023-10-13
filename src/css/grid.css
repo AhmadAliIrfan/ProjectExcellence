@@ -1,0 +1,25 @@
+.grid2 {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  margin: 5px 0px 50px;
+  gap: 50px;
+}
+
+.gridCenter {
+  margin: 40px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .grid2 {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .gridCenter {
+    display: block;
+    margin: 20px;
+  }
+}

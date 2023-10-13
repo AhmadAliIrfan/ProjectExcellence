@@ -1,0 +1,29 @@
+.formContent {
+  display: grid;
+  grid-template-columns: 0.5fr 3fr;
+  gap: 20px;
+  padding: 50px 50px 0px;
+  margin: 40px 0px 30px;
+  align-items: center;
+  color: #000;
+  border: none;
+  font-weight: 800;
+}
+
+.formContainer {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10% 25% 1%;
+}
+
+@media screen and (max-width: 768px) {
+  .formContent {
+    padding: 40px 40px 10px 10px;
+    margin: 0px;
+  }
+
+  .formContainer {
+    margin: 10% 5% 1%;
+    font-size: 0.8rem;
+  }
+}

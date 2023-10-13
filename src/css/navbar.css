@@ -1,0 +1,112 @@
+/* font-family: 'EB Garamond', serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+font-family: 'Lustria', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Spectral', serif; */
+
+#navbar {
+  padding: 3% 7%;
+  position: relative;
+  z-index: 1;
+}
+
+#my-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.dropdown {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+.services:hover .dropdown {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  transform: translate(-25%, 1.1%);
+  backdrop-filter: blur(5px);
+}
+
+.services:hover .dropdown .list-item {
+  padding: 20px;
+  margin: 5px;
+}
+
+.list-item {
+  color: #fff;
+  padding: 5px 10px;
+  white-space: nowrap;
+  resize: auto;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0px 3px 8px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  border-bottom: rgba(0, 0, 0, 0.5);
+}
+
+.list-item:hover {
+  background-color: #52b2bf;
+}
+
+.fa-solid {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: block;
+  }
+  .list {
+    color: #ffffff;
+    background-color: blue;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: -150%;
+    transform: translate(-50%, 13%);
+    transition: all 0.4s ease-in-out;
+    font-size: 2.5vw;
+  }
+
+  .list.active {
+    left: 50%;
+  }
+
+  .services:hover .dropdown {
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+  }
+
+  .list-item {
+    margin: 3%;
+    padding: 4%;
+  }
+}

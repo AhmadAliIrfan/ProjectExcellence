@@ -1,0 +1,153 @@
+:root {
+  --raito: 1.77866227037;
+}
+
+.full {
+  width: 100%;
+}
+.jumbo {
+  width: 80%;
+}
+
+.lg {
+  width: 60%;
+}
+
+.full {
+  width: 100%;
+}
+
+.half {
+  width: 50%;
+}
+
+.md {
+  width: 40%;
+}
+
+.sm {
+  width: 20%;
+}
+
+.xs {
+  width: 10%;
+}
+
+.mds {
+  width: 15%;
+}
+
+.pfp-lg-pr {
+  width: 300px; /* 290px */
+
+  height: 300px; /* 290px */
+}
+
+.pfp-md-pr {
+  width: 100%;
+  height: 20%;
+}
+
+.pfp-sm-pr {
+  width: 150px;
+  height: 150px;
+}
+
+.pfp-xsm-pr {
+  width: 50px;
+  height: 50px;
+}
+
+.pfp-lg {
+  width: 250px;
+  height: 250px;
+}
+.pfp-md {
+  width: 120px;
+  height: 120px;
+}
+.pfp-av {
+  width: 24px;
+  height: 24px;
+}
+
+.pfp-av2 {
+  width: 75px;
+  height: 75px;
+}
+
+.pfp-sm {
+  width: 50px;
+  height: 50px;
+}
+.pfp-xs {
+  width: 15px;
+  height: 15px;
+}
+
+.curve-100 {
+  border-radius: 100%;
+}
+
+.curve-50 {
+  border-radius: 50%;
+}
+
+.curve-40 {
+  border-radius: 40%;
+}
+
+.curve-30 {
+  border-radius: 30%;
+}
+
+.curve-20 {
+  border-radius: 20%;
+}
+.curve-10 {
+  border-radius: 10%;
+}
+.curve-5 {
+  border-radius: 5%;
+}
+
+.center {
+  text-align: center;
+  margin: 0px auto;
+}
+
+.center500 {
+  text-align: left;
+  margin: 0px 10px;
+}
+
+.margin-t10 {
+  margin: 10px auto 0px;
+}
+
+.margin-tb10 {
+  margin: 10px auto;
+}
+.margin-t20 {
+  margin: 10px auto 0px;
+}
+
+.margin-tb20 {
+  margin: 10px auto;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .center500 {
+    text-align: center;
+    margin: 0px auto;
+  }
+
+  .pfp-sm {
+    width: 35px;
+    height: 35px;
+  }
+}

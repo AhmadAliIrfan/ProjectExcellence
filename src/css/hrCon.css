@@ -1,0 +1,122 @@
+.hrHeading,
+.hrHeading2 {
+  text-align: center;
+  padding: 50px;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.4);
+}
+.hrHeading1 {
+  text-align: center;
+  background-color: #0a346b;
+  color: #fff;
+  padding: 50px;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.4);
+}
+
+.hrCombine {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.pd-standard {
+  padding: 5% 7%;
+}
+
+.hrImage {
+  width: 100%;
+  height: 100%;
+}
+
+.intro,
+.subHeading {
+  background-color: #0a346b;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 5% 7%;
+}
+
+.subHeading1 {
+  background-color: #fff;
+  font-size: 1.3rem;
+  padding: 5% 7%;
+}
+
+.insuranceItems {
+  background-color: #0a346b;
+  color: #fff;
+  margin: 30px 0px;
+  padding: 30px;
+  font-weight: 700;
+}
+/* #0a346b; */
+
+.insuranceList {
+  background-color: #0a346b;
+  padding: 20px;
+}
+
+.hrBenefits {
+  padding: 10px 0px;
+}
+.hrBenefitsList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.hrBenefitsListItems {
+  display: flex;
+  padding: 20px 30px;
+  margin: 20px 10%;
+  background-color: #0a6dc4;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transform: scale(0);
+  opacity: 0;
+  animation: fadeScaleIn 3s forwards ease-in-out;
+  font-size: 1rem;
+}
+
+.rights {
+  text-align: center;
+}
+
+.listButton {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes fadeScaleIn {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hrCombine {
+    grid-template-columns: 1fr;
+  }
+
+  .hrHeading {
+    font-size: 5vw;
+  }
+
+  .hrHeading2,
+  .hrHeading1 {
+    font-size: 4vw;
+  }
+
+  .subHeading,
+  .intro,
+  .hrBenefitsListItems,
+  .subHeading1 {
+    font-size: 3vw;
+  }
+
+  .hrBenefitsListItems {
+    min-height: 120px;
+  }
+}

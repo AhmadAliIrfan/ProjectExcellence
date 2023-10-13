@@ -1,0 +1,22 @@
+.socialDiv,
+.socialImg {
+  width: 40%;
+  margin: 0px auto;
+}
+
+.socialText {
+  color: #fff;
+  font-size: 0.8em;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 690px) {
+  .socialText {
+    font-size: 1vw;
+  }
+
+  .socialDiv,
+  .socialImg {
+    width: 60%;
+  }
+}
